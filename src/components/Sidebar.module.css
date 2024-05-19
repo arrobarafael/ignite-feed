@@ -21,7 +21,7 @@
 }
 
 .avatar {
-  box-sizing: initial;
+  /* box-sizing: initial; evita que border e outline tomem altura e largura da imagem interna  */
   width: calc(3rem + 12px);
   height: calc(3rem + 12px);
   border-radius: 8px;
